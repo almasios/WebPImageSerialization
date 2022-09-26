@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'WebPImageSerialization'
-  s.version  = '0.2.2'
+  s.version  = '0.2.3'
   s.license  = 'MIT'
   s.summary  = 'Encodes and decodes between UIImage and WebP image data.'
   s.homepage = 'https://github.com/mattt/WebPImageSerialization'
