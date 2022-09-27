@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/mattt'
   s.authors  = { 'Mattt' => 'mattt@me.com' }
   s.source   = { git: 'https://github.com/almasios/WebPImageSerialization.git', tag: s.version }
-  s.source_files = 'WebPImageSerialization', 'WebP.framework'
-  s.preserve_paths = 'WebPImageSerialization', 'WebP.framework'
+  s.source_files = 'WebPImageSerialization', 'WebP.xcframework'
+  s.preserve_paths = 'WebPImageSerialization', 'WebP.xcframework'
   s.vendored_frameworks = 'WebP.framework'
   s.requires_arc = true
 
