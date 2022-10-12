@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22E7605023EE9D5000051B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E7604F23EE9D5000051B96 /* LaunchScreen.storyboard */; };
-		4F3D675A28F7194F0028DFE7 /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3D675928F7194F0028DFE7 /* WebP.xcframework */; };
+		4F1091FE28F71C44002CD6D3 /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1091FD28F71C44002CD6D3 /* WebP.xcframework */; };
 		F82E75AF18ABDC4E002D596E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82E75AE18ABDC4E002D596E /* Foundation.framework */; };
 		F82E75B118ABDC4E002D596E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82E75B018ABDC4E002D596E /* CoreGraphics.framework */; };
 		F82E75B318ABDC4E002D596E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82E75B218ABDC4E002D596E /* UIKit.framework */; };
@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		22E7604F23EE9D5000051B96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1091FD28F71C44002CD6D3 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebP.xcframework; path = ../WebPImageSerialization/WebP.xcframework; sourceTree = "<group>"; };
 		4F3D675928F7194F0028DFE7 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebP.xcframework; path = "../../Downloads/libwebp-1.2.4-ios-framework 2/WebP.xcframework"; sourceTree = "<group>"; };
 		F82E75AB18ABDC4E002D596E /* WebPImage Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebPImage Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82E75AE18ABDC4E002D596E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F3D675A28F7194F0028DFE7 /* WebP.xcframework in Frameworks */,
+				4F1091FE28F71C44002CD6D3 /* WebP.xcframework in Frameworks */,
 				F82E75B118ABDC4E002D596E /* CoreGraphics.framework in Frameworks */,
 				F82E75B318ABDC4E002D596E /* UIKit.framework in Frameworks */,
 				F82E75AF18ABDC4E002D596E /* Foundation.framework in Frameworks */,
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3D675928F7194F0028DFE7 /* WebP.xcframework */,
+				4F1091FD28F71C44002CD6D3 /* WebP.xcframework */,
 				F82E75AE18ABDC4E002D596E /* Foundation.framework */,
 				F82E75B018ABDC4E002D596E /* CoreGraphics.framework */,
 				F82E75B218ABDC4E002D596E /* UIKit.framework */,
